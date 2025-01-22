@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  node:
+    build: .
+    ports:
+      - "8000-8003:8000-8003"
+    environment:
+      - RUST_LOG=info
+    deploy:
+      replicas: 3
