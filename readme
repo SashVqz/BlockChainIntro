@@ -1,10 +1,6 @@
-# **Next-Generation Bitcoin**
-
 This project reimagines Bitcoin with major improvements in scalability, security, and energy efficiency. By adopting modern cryptography, optimized storage, and a new consensus mechanism, it resolves Bitcoin's current limitations.
 
 ---
-
-## **Key Features**
 
 ### 1. **Scalability**
 - **Larger Blocks:** Increased block size allows more transactions per block.
@@ -57,10 +53,4 @@ This project reimagines Bitcoin with major improvements in scalability, security
 1. Wallets create and sign transactions.
 2. Transactions propagate across the network.
 3. Validators process transactions into blocks.
-4. Nodes synchronize blockchain states.
-
----
-
-## **Conclusion**
-
-This project delivers a scalable, secure, and energy-efficient blockchain protocol optimized for modern needs.
+4. Nodes synchronize blockchain states
