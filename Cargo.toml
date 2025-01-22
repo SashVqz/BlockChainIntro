@@ -1,0 +1,17 @@
+[package]
+name = "POST_bitcoin_core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+
+ring = "0.16.20"
+ed25519-dalek = "1.0"
+sha2 = "0.10"
+
+sled = "0.34"
+
+log = "0.4"
+env_logger = "0.10"
